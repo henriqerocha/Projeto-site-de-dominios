@@ -35,6 +35,7 @@ header{
 .logo{
     display: flex;
     width: 40%;
+    margin-bottom: 30px;
 }
 .desc-logo{
     display: flex;
@@ -243,6 +244,7 @@ tbody tr:nth-of-type(odd){
 }
 
 /* Rodape */
+
 footer{
     width: 100%;
     margin-top: 40px;
@@ -251,4 +253,23 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.desc-footer{
+    text-align: center;
+    line-height: 45px;
+    font-size: .8em;
+}
+.dev{
+    color: #e64404;
+    font-size: 1em;
+    font-weight: bold;
 }
