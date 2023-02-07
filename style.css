@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.img-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+.img-logo img{
+    width: 70px;
+    object-fit: cover;
+}
+.limita-area{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    width: 40%;
+}
+.desc-logo{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+ul,li{
+    display: flex;
+    list-style: none;
+}
+.menu-bar a{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.menu-bar a:hover{
+    background-color: #2f86d6;
+    color: #fff;
+    border-radius: 5px;
+}
+.desc-logo span{
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+
+/* Estilo do banner */
+
+
+.banner{
+    width: 100%;
+    background-color: #2f86d6;
+    height: 450px;
+    
+}
+.left-area{
+    width: 50%;
+}
+.left-area p, h3{
+    width: 80%;
+    color: #fff;
+    margin: 20px 0;
+}
+.left-area p{
+    font-size: 12px;
+}
+.right-area{
+    width: 50%;
+}
+.content-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* anuncio tabelas */
+
+.anuncio, .anuncio-dois{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #233032;
+    width: 100%;
+    height: 15vh;
+}
+.anuncio-dois{
+    background-color: #2f86d6;
+}
+.anuncio-dois a{
+    background-color: #233032;
+}
+.desc-anuncio{
+    width: 60%;
+    line-height: 5px;
+    color: #fff;
+}
+.desc-anuncio p{
+    font-size: 12px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-anuncio a, .btn-anuncio-dois a{
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2f86d6;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.btn-anuncio-dois a{
+    background-color: #233032;
+}
+.btn-anuncio a::before, .btn-anuncio-dois a::before{
+    content: "";
+    background-image: url('img/icone-foguete.png');
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/* Section SOBRE */
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.titulo-sobre{
+    display: flex;
+    justify-content: center;
+}
+.titulo-sobre h3{
+    color: #000;
+    margin: 60px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.destaque-texto{
+    color: #2f86d6;
+}
+.box-cards{
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(100%/3 - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-card img{
+    width: 20%;
+    margin-bottom: 15px;
+}
+.desc-card h4{
+    margin-bottom: 15px;
+}
+.desc-card p{
+    font-size: 12px;
+}
+
+
+/* section PLANOS */
+#planos{
+    background-color: #e9e9e9;
+    width: 100%;
+}
+.desc-planos{
+    display: flex;
+    justify-content: center;
+}
+.desc-planos h3{
+    text-align: center;
+    color: #000;
+    margin: 60px 0;
+}
+.tabela-planos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/* .tabela-planos figure img{
+    width: 50%;
+    object-fit: cover;
+} */
+.linha-topo-tabela{
+    width: 100%;
+    padding: 15px;
+}
+.coluna-topo-tabela{
+    width: 25%;
+    padding: 15px 25px;
+}
+table{
+    width: 60%;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0px 0px 25px 0px #2f86d6;
+    margin-bottom: 60px;
+}
+figcaption{
+    font-size: 11px;
+    color: #aaaaaa;
+}
+.tabela{
+    background-color: #fff;
+    border-radius: 5px;
+}
+tr, td, th{
+    height: 50px;
+    border: 0;
+}
+tbody tr:nth-of-type(odd){
+    background-color: #e9e9e9;
+}
+
+/* Rodape */
+footer{
+    width: 100%;
+    margin-top: 40px;
+}
+.bot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
