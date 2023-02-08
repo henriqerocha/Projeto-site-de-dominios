@@ -385,3 +385,8 @@ td:hover .bolinha {
     width: 100%;
     height: 20%;
 }
+.dev-footer span{
+    color: #e64404;
+    font-size: 14px;
+    font-weight: bold;
+}
