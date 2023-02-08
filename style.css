@@ -57,7 +57,7 @@ ul,li{
     color: #fff;
     border-radius: 5px;
 }
-.desc-logo span{
+.destaque-texto-logo{
     color: #2f86d6;
     font-weight: bold;
 }
@@ -231,6 +231,10 @@ figcaption{
     font-size: 11px;
     color: #aaaaaa;
 }
+th:hover, td:hover{
+    background-color: #2f86d6;
+    color: #fff;
+}
 .tabela{
     background-color: #fff;
     border-radius: 5px;
@@ -272,4 +276,112 @@ footer{
     color: #e64404;
     font-size: 1em;
     font-weight: bold;
+}
+
+/* CSS da página de preços */
+
+.topo-precos{
+    background-color: #2f86d6;
+}
+.destaque-texto-precos{
+    color: #fff;
+    font-weight: bold;
+}
+.menu-bar-precos a{
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.menu-bar-precos a:hover{
+    background-color: #233032;
+    border-radius: 5px;
+}
+.tabela-precos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 80px 0;
+}
+.column-table, .first-column-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+    text-align: center;
+    width: 100%;
+}
+.column-table span,
+.first-column-table span{
+    font-size: 10px;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+.column-table h3,
+.first-column-table h3{
+    font-size: 24px;
+    color: #000;
+}
+
+.second-column-table,
+.third-column-table,
+.four-column-table,
+.fift-column-table{
+    width: 17%;
+    padding: 10px 0;
+}
+.first-column-table{
+    visibility: hidden;
+}
+.center{
+    text-align: center;
+}
+.bolinha{
+    width: 15px;
+  height: 15px;
+  background-color: #2f86d6;
+  border-radius: 50%;
+  display: inline-block;
+}
+td:hover .bolinha {
+    background-color: white;
+  }
+
+
+  /* Footer preços */
+#rodape-precos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    background-color: #2f86d6;
+}
+.topo-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    
+}
+.destaque-texto-footer{
+    color: #fff;
+    font-weight: bold;
+}
+.par-footer{
+    text-align: center;
+    color: #fff;
+}
+.dev-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    height: 20%;
 }
